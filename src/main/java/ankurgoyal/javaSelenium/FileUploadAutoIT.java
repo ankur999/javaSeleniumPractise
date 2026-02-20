@@ -61,6 +61,9 @@ public class FileUploadAutoIT {
 		File f=new File(downloadPath+"/converted.zip");
 		if(f.exists()) {
 			System.out.println("file found successfully");
+			if(f.delete()) {
+				System.out.println("file deleted successfully");
+			}
 		}
 		
 
