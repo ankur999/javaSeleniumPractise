@@ -50,6 +50,7 @@ public class FileUploadAutoIT {
 		//wait till download btn appears
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("dwnldbtn")));
 		driver.findElement(By.cssSelector("dwnldbtn")).click();
+		Thread.sleep(5000);
 		
 		//task to verify the downloaded file is successfully downloaded by checking path is available is directory or not
 		//once file is downloaded it will be in downloads folder
