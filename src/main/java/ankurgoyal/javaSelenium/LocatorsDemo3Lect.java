@@ -9,7 +9,7 @@ import org.testng.Assert;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class LocatorsDemo2 {
+public class LocatorsDemo3Lect {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
@@ -18,7 +18,7 @@ public class LocatorsDemo2 {
 		WebDriver driver=new ChromeDriver();
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-		LocatorsDemo2 ld=new LocatorsDemo2();
+		LocatorsDemo3Lect ld=new LocatorsDemo3Lect();
 		String finalPass=ld.getPassword(driver);
 		
 		driver.get("https://rahulshettyacademy.com/locatorspractice/");

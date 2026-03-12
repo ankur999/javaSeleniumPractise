@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class LocatorsDemo {
+public class LocatorsDemo2Lect {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
