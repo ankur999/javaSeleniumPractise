@@ -7,7 +7,7 @@ import org.testng.Assert;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class DynamicDropDowns {
+public class DynamicDropDowns6Lect {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
@@ -21,8 +21,9 @@ public class DynamicDropDowns {
 		driver.findElement(By.id("ctl00_mainContent_ddl_originStation1_CTXT")).click();//Click on From DD 
 		driver.findElement(By.xpath("//a[@value='BLR']")).click();//Select value from From DD
 		Thread.sleep(2000);
-		driver.findElement(By.xpath("(//a[@value='MAA'])[2]")).click();//Select value from To DD
+		//driver.findElement(By.xpath("(//a[@value='MAA'])[2]")).click();//Select value from To DD
 		
+		driver.findElement(By.xpath("//div[@id='glsctl00_mainContent_ddl_destinationStation1_CTNR'] //a[@value='MAA']")).click();
 		//div[@id='glsctl00_mainContent_ddl_destinationStation1_CTNR'] //a[@value='MAA'] 
 		//This is Parent Child Relationship Method earlier which we used by / moving to child is parent child traverse method
 		

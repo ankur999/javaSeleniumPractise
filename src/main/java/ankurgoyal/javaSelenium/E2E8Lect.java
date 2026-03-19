@@ -7,7 +7,7 @@ import org.testng.Assert;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class E2E {
+public class E2E8Lect {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub

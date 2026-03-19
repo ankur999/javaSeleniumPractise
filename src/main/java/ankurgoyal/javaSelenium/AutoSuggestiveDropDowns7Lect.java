@@ -10,7 +10,7 @@ import org.testng.Assert;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class AutoSuggestiveDropDowns {
+public class AutoSuggestiveDropDowns7Lect {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
