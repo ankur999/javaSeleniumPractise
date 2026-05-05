@@ -28,7 +28,7 @@ public class CoreJavaBrushUpOne {
 		arr[4] = 18;
 
 		int[] arr1 = { 1, 2, 3, 4, 5 };// second way
-		System.out.println(arr[2]);
+		System.out.println(arr[1]);
 
 		// Loops
 
