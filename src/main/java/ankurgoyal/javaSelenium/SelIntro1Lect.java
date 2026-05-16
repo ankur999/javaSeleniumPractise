@@ -12,7 +12,7 @@ public class SelIntro1Lect {
 		// TODO Auto-generated method stub
 		
 		//WebDriver contains the all methods with the empty body so that the classes 
-		//can implement it in their own way by providing their functionality and also 
+		//like chromedriver, firefox can implement it in their own way by providing their functionality and also 
 		//user can easily switch b/w the browsers without changing the code
 		
 		WebDriverManager.chromedriver().setup();

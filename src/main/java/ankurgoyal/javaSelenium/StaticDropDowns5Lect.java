@@ -23,7 +23,7 @@ public class StaticDropDowns5Lect {
 		WebElement staticDropdown=driver.findElement(By.id("ctl00_mainContent_DropDownListCurrency"));
 		
 		Select select=new Select(staticDropdown);
-		select.selectByIndex(1);//By Value & By Visible Text
+		select.selectByIndex(1);//By Value(nothing but the attribute) & By Visible Text
 		System.out.println(select.getFirstSelectedOption().getText());//will get text of the selected element
 		
 		//Passenger Drop Down
